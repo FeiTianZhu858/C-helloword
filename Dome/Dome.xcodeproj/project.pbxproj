@@ -19,6 +19,7 @@
 		C2EF5BF11946FC3700AEAF1E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2EF5BD91946FC3700AEAF1E /* UIKit.framework */; };
 		C2EF5BF91946FC3700AEAF1E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C2EF5BF71946FC3700AEAF1E /* InfoPlist.strings */; };
 		C2EF5BFB1946FC3700AEAF1E /* DomeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2EF5BFA1946FC3700AEAF1E /* DomeTests.m */; };
+		C2EF5C051946FD1300AEAF1E /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2EF5C041946FD1300AEAF1E /* Storyboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		C2EF5BF61946FC3700AEAF1E /* DomeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DomeTests-Info.plist"; sourceTree = "<group>"; };
 		C2EF5BF81946FC3700AEAF1E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C2EF5BFA1946FC3700AEAF1E /* DomeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DomeTests.m; sourceTree = "<group>"; };
+		C2EF5C041946FD1300AEAF1E /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 			children = (
 				C2EF5BE41946FC3700AEAF1E /* CHAppDelegate.h */,
 				C2EF5BE51946FC3700AEAF1E /* CHAppDelegate.m */,
+				C2EF5C041946FD1300AEAF1E /* Storyboard.storyboard */,
 				C2EF5BE71946FC3700AEAF1E /* Images.xcassets */,
 				C2EF5BDC1946FC3700AEAF1E /* Supporting Files */,
 			);
@@ -222,6 +225,7 @@
 			files = (
 				C2EF5BE01946FC3700AEAF1E /* InfoPlist.strings in Resources */,
 				C2EF5BE81946FC3700AEAF1E /* Images.xcassets in Resources */,
+				C2EF5C051946FD1300AEAF1E /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,6 +446,7 @@
 				C2EF5C001946FC3700AEAF1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C2EF5C011946FC3700AEAF1E /* Build configuration list for PBXNativeTarget "DomeTests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +455,7 @@
 				C2EF5C031946FC3700AEAF1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
